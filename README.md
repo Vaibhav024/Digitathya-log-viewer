@@ -1,16 +1,25 @@
-# React + Vite
+# 📊 Scan Log Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application to visualize and analyze scan events from field devices.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- View scan logs in a structured table
+- Filter by status, action, and operator
+- Pagination for performance
+- Loader for smooth UX
+- Responsive design (mobile + desktop)
+- Realistic mock data with:
+  - Inactive operators
+  - Mid-session failures
+  - Missing / low accuracy location
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- React (Vite)
+- JavaScript
+- CSS (custom responsive UI)
 
-## React Compiler
+## 📦 Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
